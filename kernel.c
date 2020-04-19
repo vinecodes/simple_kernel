@@ -5,7 +5,7 @@
 */
 
 void kmain(void){
-    const char *str = "My First Kernel";
+    const char *str = "My First Kernel - Vineeth Penugonda";
 	char *vidptr = (char*)0xb8000; 	//video mem begins here in protected mode.
 	unsigned int i = 0;
 	unsigned int j = 0;
